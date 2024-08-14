@@ -1,5 +1,5 @@
 {% set name = "mlgb" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mlgb-{{ version }}.tar.gz
-  sha256: 52b99596363645ec6c186e5d8ac0fc8d18d4f413236720b8f762dfcf41116918
+  sha256: a89faa22f43f4a380baae3a27d07b3a951ac5a1f693b466f776f4d8c995f30b3
 
 build:
   noarch: python
